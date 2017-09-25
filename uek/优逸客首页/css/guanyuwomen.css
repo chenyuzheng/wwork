@@ -1,0 +1,229 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-20 17:29:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-21 08:31:08
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.tiao{
+	width: 100%;
+	height: 0.92rem;
+}
+.header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.haitun{
+	width: 0.71rem;
+	height: 0.71rem;
+	background: #0078e6;
+	margin-left: 35%;
+	margin-top: 0.1rem;
+	float: left;
+}
+.haitun a{
+	display: block;
+	width: 0.71rem;
+	height: 0.71rem;
+}
+.haitun img{
+	display: block;
+	width: 0.71rem;
+	height: 0.71rem; 
+}
+.youyike{
+	width: 1.44rem;
+	height: 100%;
+	background: #0078e6;
+	font-size: 0.37rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.92rem;
+	float: left;
+}
+.datu{
+	width: 100%;
+	height: 2.8rem;
+}
+.datu a{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+.datu img{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+.shouye{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+}
+.shouye1{
+	width: 2.3rem;
+	height: 0.82rem;
+	background: #f5f6fa;
+	font-size: 0.22rem;
+	color: #494747;
+	text-align: center;
+	line-height: 0.82rem;
+	margin-left: 
+}
+.zhuti{
+	width: 100%;
+	height: 14.35rem;
+	background: #f5f6fa;
+}
+.zhuti-main{
+	width: 94%;
+	height: 100%;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.zhuti-main li{
+	width: 100%;
+	height: 1.32rem;
+	background: #ffffff;
+	border-bottom:0.1rem solid #f5f6fa; 
+	position: relative;
+}
+.zhuti-main li:first-child{
+	height: 7.25rem;
+}
+.zhuti-main li:nth-child(2){
+	height: 2.74rem;
+}
+.lanse{
+	width: 0.19rem;
+	height: 0.2rem;
+	background: #ffffff;
+	border-left: 0.04rem solid #01b5ff;
+	position: absolute;
+	top: 0.3rem;
+	left: 0.19rem;
+}
+.gaishu{
+	width: 6.4rem;
+	height: 0.54rem;
+	background: #ffffff;
+	font-size: 0.25rem;
+	color: #444444;
+	font-weight: bolder;
+	text-align: left;
+	line-height: 0.54rem;
+	border-bottom: 0.01rem dashed #999999; 
+	position: absolute;
+	top: 0.14rem;
+	left: 0.42rem;
+	
+}
+.daduan{
+	width: 6.4rem;
+	height: 3.25rem;
+	background: #ffffff;
+	font-size:0.24rem; 
+	color:#666666 ;
+	position: absolute;
+	left: 0.43rem;
+	top:0.97rem;
+}
+.dadaun1{
+	width: 6.4rem;
+	height: 2.4rem;
+	background: #ffffff;
+	font-size:0.24rem; 
+	color:#666666 ;
+	position: absolute;
+	left: 0.43rem;
+	top:4.5rem;
+}
+.sangetu{
+	width: 6.4rem;
+	height: 2rem;
+	background: #ffffff;
+	position: absolute;
+	left:0.43rem ;
+	top:0.7rem ;
+}
+.sanggetu1{
+	width: 33.3333333%;
+	height: 100%;
+	background: #ffffff;
+	float: left;
+}
+.sanggetu1 img{
+	width: 1.33rem;
+	height: 1.33rem;
+	margin-left: 0.4rem;
+	margin-top: 0.35rem;
+}
+.zi1{
+	width: 6.26rem;
+	height: 0.5rem;
+	background: #ffffff;
+	font-size: 0.26rem;
+	color: #666666;
+	text-align: left;
+	line-height: 0.5rem;
+	position: absolute;
+	top: 0.8rem;
+	left: 0.42rem;
+}
+.jiaru{
+	width: 100%;
+	height: 2.23rem;
+	background: #f5f6fa;
+	position: relative;
+}
+.jiaru img{
+	display: block;
+	width: 1.7rem;
+	height: 1.7rem;
+	position: absolute;
+    top: 0.3rem;
+	left: 2.8rem;
+}
+.jiaru a{
+	display: block;
+	width: 1.7rem;
+	height: 1.7rem;
+}
+.bottom{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+	position: relative;
+}
+.zi3{
+	width: 100%;
+	height: 0.38rem;
+	background: #f5f6fa;
+	font-size: 0.2rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.38rem;
+	position: absolute;
+	top: 0.19rem;
+}
+.zi4{
+	width: 100%;
+	height: 0.38rem;
+	background: #f5f6fa;
+	font-size: 0.2rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.38rem;
+	position: absolute;
+	top: 0.55rem;
+}

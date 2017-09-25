@@ -1,0 +1,452 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-22 16:05:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-22 21:40:18
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 354513 */
+  src: url('http://at.alicdn.com/t/font_itdo9xyucnx6flxr.eot');
+  src: url('http://at.alicdn.com/t/font_itdo9xyucnx6flxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_itdo9xyucnx6flxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_itdo9xyucnx6flxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_itdo9xyucnx6flxr.svg#iconfont') format('svg');
+}
+.tiao{
+	width: 100%;
+	height: 0.92rem;
+}
+.header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.haitun{
+	width: 0.71rem;
+	height: 0.71rem;
+	background: #0078e6;
+	margin-left: 35%;
+	margin-top: 0.1rem;
+	float: left;
+}
+.haitun a{
+	display: block;
+	width: 0.71rem;
+	height: 0.71rem;
+}
+.haitun img{
+	display: block;
+	width: 0.71rem;
+	height: 0.71rem; 
+}
+.youyike{
+	width: 1.44rem;
+	height: 100%;
+	background: #0078e6;
+	font-size: 0.37rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.92rem;
+	float: left;
+}
+.datu{
+	width: 100%;
+	height: 2.8rem;
+}
+.datu a{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+.datu img{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+.shouye{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+}
+.shouye1{
+	width: 2.7rem;
+	height: 0.82rem;
+	background: #f5f6fa;
+	font-size: 0.22rem;
+	color: #494747;
+	text-align: center;
+	line-height: 0.82rem;
+	margin-left: 
+}
+.meiti{
+	width: 100%;
+	height: 10.17rem;
+	background: #ffffff;
+}
+.meiti-main{
+	width: 100%;
+	height: 10.17rem;
+	background: #ffffff;
+}
+.meiti-main li{
+    width: 100%;
+    height: 3.37rem;
+    background: #ffffff;
+    border-bottom: 0.03rem solid #f5f6fa;
+    position: relative;
+}
+.kaitou{
+	width: 3.63rem;
+	height: 0.68rem;
+	background: #ffffff;
+	font-size:0.26rem; 
+	color:#000 ;
+	text-align: left;
+	line-height: 0.68rem;
+	margin-left: 0.24rem;
+}
+.kuang{
+	width: 1.91rem;
+	height: 1.43rem;
+	background: #ffffff;
+	border: 0.01rem solid #01b5ff;
+	position: absolute;
+	left: 0.34rem;
+	top: 0.72rem;
+}
+.hui{
+	width: 1.93rem;
+	height: 1.45rem;
+	background: #c8c8c8;
+	position: absolute;
+	left: 0.24rem;
+	top: 0.82rem;
+}
+.da{
+	width: 4.8rem;
+	height: 1.44rem;
+	background: #ffffff;
+	font-size:0.25rem; 
+	color: #494747;
+	position: absolute;
+	left:2.51rem; 
+	top:0.78rem;
+}
+.ditiao{
+	width: 100%;
+	height: 0.6rem;
+	background: #ffffff;
+	border-bottom: 0.01rem solid #cecece;
+	border-top: 0.01rem solid #cecece;
+	position: absolute;
+	left: 0;
+	top: 2.47rem;
+}
+.dimain{
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	border-bottom: 0.01rem solid #cecece;
+	border-top: 0.01rem solid #cecece;
+	position: relative;
+}
+.quan{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: #ffffff;
+	border-radius: 50%;
+	border: 0.01rem solid #7a7a7a;
+	font-size: 0.22rem;
+	font-family: 'iconfont';
+	color: #6e6e6e;
+	text-align: center;
+	line-height: 0.3rem;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.15rem;
+}
+.riqi{
+	width: 0.9rem;
+	height: 0.3rem;
+	background: #ffffff;
+	font-size: 0.22rem;
+	color: #6e6e6e;
+	text-align: center;
+	line-height: 0.3rem;
+	position: absolute;
+	left: 0.46rem;
+	top: 0.2rem;
+}
+.quan1{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: #ffffff;
+	border-radius: 50%;
+	border: 0.01rem solid #7a7a7a;
+	font-size: 0.22rem;
+	font-family: 'iconfont';
+	color: #6e6e6e;
+	text-align: center;
+	line-height: 0.3rem;
+	position: absolute;
+	left: 2.5rem;
+	top: 0.15rem;
+}
+.dianji{
+	width: 2rem;
+	height: 0.3rem;
+	background: #ffffff;
+	font-size: 0.22rem;
+	color: #6e6e6e;
+	text-align: left;
+	line-height: 0.3rem;
+	position: absolute;
+	left: 2.9rem;
+	top: 0.2rem;
+}
+.quan2{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: #ffffff;
+	border-radius: 50%;
+	border: 0.01rem solid #7a7a7a;
+	font-size: 0.22rem;
+	font-family: 'iconfont';
+	color: #6e6e6e;
+	text-align: center;
+	line-height: 0.3rem;
+	position: absolute;
+	left: 5.2rem;
+	top: 0.15rem;
+}
+.dianji1{
+	width: 2rem;
+	height: 0.3rem;
+	background: #ffffff;
+	font-size: 0.22rem;
+	color: #6e6e6e;
+	text-align: left;
+	line-height: 0.3rem;
+	position: absolute;
+	left: 5.6rem;
+	top: 0.2rem;
+}
+.footer{
+	width: 100%;
+	height: 0.7rem;
+	background: #ffffff;
+}
+.footer1{
+	width: 0.58rem;
+	height: 0.31rem;
+	background: #ffffff;
+	border: 0.01rem solid #999999;
+	border-radius: 30%;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.18rem;
+	margin-right: 0.14rem;
+	position: relative;
+}
+.footer1-1{
+	width: 0.5rem;
+	height: 0.25rem;
+	background: #ffffff;
+	font-size: 0.4rem;
+	color: #383838;
+	text-align: center;
+	line-height: 0.31rem;
+	border: 0.01rem solid #333333;
+	border-radius: 30%;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.yidaosanshi{
+	width: 4rem;
+	height: 0.32rem;
+	background: #ffffff;
+	float: left;
+	margin-top: 0.18rem;
+}
+.yidaosanshi li{
+	width: 0.32rem;
+	height: 0.32rem;
+	background: #ffffff;
+	float: left;
+	border-radius: 50%;
+	border: 0.01rem solid #b4b4b4;
+	margin-right: 0.1rem;
+	position: relative;
+}
+.xiaoyuan{
+	width: 0.26rem;
+	height: 0.26rem;
+	background: #ffffff;
+	font-size: 0.1rem;
+	color: #383838;
+	text-align: center;
+	line-height: 0.26rem;
+	border: 0.01rem solid #191919;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.yidaosanshi li:last-child{
+    width: 0.58rem;
+	height: 0.31rem;
+	background: #ffffff;
+	border: 0.01rem solid #999999;
+	border-radius: 30%;
+	/* float: left; */
+	position: relative;
+}
+.footer2{
+	width: 0.5rem;
+	height: 0.25rem;
+	background: #ffffff;
+	font-size: 0.4rem;
+	color: #383838;
+	text-align: center;
+	line-height: 0.31rem;
+	border: 0.01rem solid #333333;
+	border-radius: 30%;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.yidaosanshi li:nth-child(6){
+	border: 0rem solid #b4b4b4;
+}
+.dian{
+	width: 0.26rem;
+	height: 0.26rem;
+	background: #ffffff;
+	font-size: 0.05rem;
+	color: #383838;
+	text-align: center;
+	line-height: 0.26rem;
+	border: 0rem solid #191919;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.tiaozhuan{
+	width:1rem; 
+	height: 0.3rem;
+	background:#ffffff;
+	float: left; 
+	font-size: 0.1rem;
+	color: #000000;
+	text-align: center;
+	line-height:0.3rem; 
+	margin-top: 0.18rem;
+}
+.kongbaikuang{
+	width: 0.58rem;
+	height: 0.31rem;
+	background: #ffffff;
+	border: 0.01rem solid #999999;
+	border-radius: 30%;
+	float: left;
+	margin-left: 0.05rem;
+	margin-right: 0.05rem;
+	margin-top: 0.18rem;
+	position: relative;
+}
+.kongbaixiao{
+	width: 0.5rem;
+	height: 0.25rem;
+	background: #ffffff;
+	font-size: 0.4rem;
+	color: #383838;
+	text-align: center;
+	line-height: 0.31rem;
+	border: 0.01rem solid #333333;
+	border-radius: 30%;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.go{
+	width: 0.32rem;
+	height: 0.32rem;
+	background: #ffffff;
+	float: left;
+	border-radius: 50%;
+	border: 0.01rem solid #b4b4b4;
+	margin-top: 0.18rem;
+	position: relative;
+}
+.gozi{
+	width: 0.26rem;
+	height: 0.26rem;
+	background: #ffffff;
+	font-size: 0.1rem;
+	color: #383838;
+	text-align: center;
+	line-height: 0.26rem;
+	border: 0.01rem solid #191919;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.bottom{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+	position: relative;
+}
+.zi1{
+	width: 100%;
+	height: 0.38rem;
+	background: #f5f6fa;
+	font-size: 0.2rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.38rem;
+	position: absolute;
+	top: 0.19rem;
+}
+.zi2{
+	width: 100%;
+	height: 0.38rem;
+	background: #f5f6fa;
+	font-size: 0.2rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.38rem;
+	position: absolute;
+	top: 0.55rem;
+}
